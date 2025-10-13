@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font -->
+
+  <!-- font awsome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark transparent-navbar fixed-top">
+      <div class="container-fluid">
+
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./img/DIGITALSPICEUP.png" alt="Digital Spice Up Logo" class="me-2">
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SERVICES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><a class="dropdown-item" href="#">Software Development</a></li>
+                <li><a class="dropdown-item" href="#">App Development</a></li>
+                <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                <li><a class="dropdown-item" href="#">SEO</a></li>
+                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                <li><a class="dropdown-item" href="#">Performance Marketing</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">OUR TEAM</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CLIENTS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACTS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- nav end -->
+
+
+  <!-- ===== Banner Start ===== -->
+
+  <section class="hero">
+    <div class="container-fluid banner-container">
+
+       <div class="banner active">
+      <div class="banner-content">
+        <h1>Innovative Software Development Services for Digital Success</h1>
+        <p>
+          Empower your business with innovative solutions.
+          <span style="color:#00c4ff">Digital Spice Up</span> builds software that drives performance and efficiency.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+
+    <!-- Banner 2 -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Next-Gen UI/UX Design for Future-Ready Brands Across All Industries</h1>
+        <p>
+          At <span style="color:#00c4ff">Digital Spice Up</span> we design experiences that blend creativity,
+          technology, and usability.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+
+    <!-- Banner 3 -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Comprehensive SEO Service for Stronger Online Reach</h1>
+        <p>
+          From keyword research to technical SEO,
+          <span style="color:#00c4ff">Digital Spice Up</span> ensures your website dominates search results.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+
+    <!-- Banner 4 -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Performance Marketing that Converts Clicks to Customers</h1>
+        <p>
+          With tailored strategies,
+          <span style="color:#00c4ff">Digital Spice Up</span> ensures your brand achieves consistent growth.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+
+    <!-- Banner 5 -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Custom Website Design and Development for Scalable Growth</h1>
+        <p>
+          Stay ahead in the digital world with
+          <span style="color:#00c4ff">Digital Spice Up</span>.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+
+    <!-- Banner 6 -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Empowering Brands with Data-Driven Digital Campaigns</h1>
+        <p>
+          Where creativity meets strategy —
+          <span style="color:#00c4ff">Digital Spice Up</span> turns marketing into momentum.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+
+    <!-- Banner 7 -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Innovative Apps that Engage, Convert, and Retain Users</h1>
+        <p>
+          Transform your vision into reality with
+          <span style="color:#00c4ff">Digital Spice Up</span> cutting-edge app development services.
+        </p>
+        <div class="banner-buttons">
+          <a href="#" class="btn btn-outline-light">Know More</a>
+          <a href="#" class="btn btn-outline-light">Contact Us</a>
+        </div>
+      </div>
+      <div class="scroll-down" onclick="scrollToSection()">&#8595;</div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- banner end -->
+  <!-- about start -->
+
+
+  <section class="about-section section_padding">
+    <div class="container ">
+      <h2 class=" text-center ">ABOUT US</h2>
+      <div class="row align-items-center justify-content-center">
+
+        <!-- LEFT: Rotating Circle -->
+        <div class="col-lg-6 text-center">
+          <div class="circle-container">
+            <!-- Dashed circle outline -->
+            <div class="dashed-circle"></div>
+
+            <!-- Center Image as Button -->
+            <button class="center-image" onclick="alert('Center button clicked!')">
+              <img src="./img/favicon.png" alt="Digital Spice Up">
+            </button>
+
+            <!-- Rotating Wrapper -->
+            <div class="rotating-wrapper">
+              <div class="label top">
+                <img src="./img/Websitedesigner-pana.png" alt="web">
+              </div>
+              <div class="label top_right">
+                <img src="./img/app.png" alt="app">
+              </div>
+              <div class="label bottom_right">
+                <img src="./img/SEO-rafiki.png" alt="seo">
+              </div>
+              <div class="label bottom_left">
+                <img src="./img/UI-UX.png" alt="uiux">
+              </div>
+              <div class="label top_left">
+                <img src="./img/software.png" alt="software">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: About Text -->
+        <div class="col-lg-6">
+          <div class="about-text">
+            <h4 class="fw-semibold mb-3"><span>Y</span>our Vision, Our Digital Innovation</h4>
+            <p>
+              At <span>Digital Spice Up</span>, we transform ideas into impactful digital
+              solutions that drive growth. Our expert team specializes in software, app, and web
+              development, blending creativity with technology to deliver scalable, future-ready
+              products.
+            </p>
+            <p>
+              From user-friendly websites and mobile apps to result-driven digital marketing
+              strategies, we provide end-to-end solutions that help businesses stand out in a
+              competitive market. What makes us different is our commitment to innovation,
+              quality, and long-term success.
+            </p>
+
+            <a href="#" class="about-btn"> Learn More <i class="fas fa-arrow-right ms-1 py-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section>
+  <!-- about end -->
+
+  <!-- service start -->
+
+  <section class="services-wrapper section_padding">
+    <div class="container-fluid">
+      <h3 class="text-center">SERVICES</h3>
+      <div class="services-wrapper">
+        <div class="service service-1">
+          <img src="./img/appdevlopment.png" alt="Web Development" class="service-bg">
+          <div class="service-content">
+            <h3>App Development</h3>
+            <p>
+              We don't just build websites—we create digital journeys that leave lasting impressions.
+              Every click, every interaction, and every design element is crafted to connect with your audience. By
+              blending creativity with functionality, we turn bold ideas into engaging online experiences that inspire
+              and convert.
+            </p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="service service-2">
+          <img src="./img/webdevelopment.png" alt="App Development" class="service-bg">
+          <div class="service-content">
+            <h3>Website Development</h3>
+            <p>
+              Every website tells a story, and we make sure it’s one of growth and impact. Our web development services
+              blend creativity with technology to transform ideas into responsive, high-performing websites. With us,
+              your brand doesn’t just go online—it builds results that matter, driving lasting success across every
+              digital touchpoint.
+            </p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="service service-3">
+          <img src="./img/performancemarketing.png" alt="Cloud Solutions" class="service-bg">
+          <div class="service-content">
+            <h3>Performance Marketing</h3>
+            <p>
+              Every click tells a story, and we make sure it’s one of growth. Our performance marketing campaigns blend
+              creativity with analytics to turn casual browsers into loyal customers.
+              With us, your brand doesn’t just get noticed—it gets results that matter,driving consistent success across
+              every digital channel
+            </p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="service service-4">
+          <img src="./img/api2.png" alt="Cloud Solutions" class="service-bg">
+          <div class="service-content">
+            <h3>Software Development</h3>
+            <p>
+              Every line of code tells a story, and we make sure it’s one of innovation and growth. Our software
+              development solutions blend creativity with technology to turn complex ideas into powerful applications.
+              With us, your brand doesn’t just build software—it builds results that matter, driving consistent success
+              across every digital platform.
+            </p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="service service-5">
+          <img src="./img/ui(1).png" alt="UI/UX Design" class="service-bg">
+          <div class="service-content">
+            <h3>UI/UX Design</h3>
+            <p>
+              Our UI/UX design services blend creativity with usability to craft experiences that delight and engage.
+              From wireframes to final interfaces, we design with purpose—balancing beauty, clarity, and function.
+              With us, your digital presence doesn’t just look good—it feels intuitive, seamless, and impactful.</p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="service service-6">
+          <img src="./img/digitalmarketing.png" alt="Digital Marketing" class="service-bg">
+          <div class="service-content">
+            <h3>Digital Marketing</h3>
+            <p>
+              Every brand has a voice, and we amplify it in the digital world with clarity and consistency.
+              Our digital marketing services combine storytelling with analytics to create campaigns that inspire,
+              engage, and convert effectively. With us, your presence doesn’t just grow—it thrives with measurable and
+              lasting impact.
+            </p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+        <div class="service service-7">
+          <img src="./img/seo.png" alt="Seo" class="service-bg">
+          <div class="service-content">
+            <h3>SEO</h3>
+            <p>
+              Boost visibility across search engines, voice assistants, and maps. Drive traffic and local reach with
+              strategic SEO, AEO, and GEO.Build authority and get discovered faster across all platform.
+            </p>
+            <a href="#" class="btn">Explore</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- service end -->
+
+  <!-- who we are start -->
+   <section class="who-section section_padding">
+     <div class="container-fluid">
+        <div class="content-wrapper">
+            <div class="floating-box">
+                <h4 class="main-title">WHO WE ARE</h4>
+                <p class="subtitle">A Place Where Idea's Grow</p>
+                <p class="description">
+                    <span>Your Growth Partner in the Digital World</span><br>
+                    We are the leading digital marketing agency in Howrah, India, helping businesses<br>
+                    transform their online presence with creativity, strategy, and technology.
+                </p>
+
+                <div class="info-section">
+                    <div class="info-item">
+                        <span class="icon"><img src="./img/vision.png" alt=""></span>
+                        <div class="info-content">
+                            <h3>Our Vision</h3>
+                            <p>To redefine the digital marketing landscape in India by creating campaigns that not only drive results but also inspire audiences and build lasting brand value.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icon"><img src="./img/leadership (1).png" alt=""></span>
+                        <div class="info-content">
+                            <h3>Our Mission</h3>
+                            <p>Our mission is to combine innovation, data, and creativity to deliver ROI-driven marketing strategies that help every client achieve measurable online growth.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icon"><img src="./img/target (1).png" alt=""></span>
+                        <div class="info-content">
+                            <h3>Our Goals</h3>
+                            <p>We aim to empower small and large businesses alike by delivering consistent returns on investment. Whether your budget is $5,000 or $50,000/month, our goal is to multiply it with proven strategies and sustainable growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+
+  <!-- who we are end -->
+
+  <!-- why choose us start -->
+ 
+<section class="why-choose-us ">
+    <div class="container">
+      <h4 class="section-title text-center">Why CHOOSE US</h4>
+
+      <div class="row align-items-center justify-content-center content-wrapper">
+        <!-- LEFT CONTENT -->
+        <div class="col-lg-6 col-md-6 col-12 left-content">
+          <p class="tagline">
+            Digital Spice Up — because your brand deserves to shine online.
+          </p>
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="col-lg-6 col-md-6 col-12 right-content">
+          <div class="swiper-container">
+            <div class="swiper-wrapper" id="swiperWrapper">
+              <button class="feature-btn"><div class="feature-icon">🌐</div><span>Custom Strategies</span></button>
+              <button class="feature-btn"><div class="feature-icon">✅</div><span>Proven Results</span></button>
+              <button class="feature-btn"><div class="feature-icon">👥</div><span>Expert Team</span></button>
+              <button class="feature-btn"><div class="feature-icon">💡</div><span>Creative Edge</span></button>
+              <button class="feature-btn"><div class="feature-icon">📱</div><span>Latest Tech</span></button>
+              <button class="feature-btn"><div class="feature-icon">📊</div><span>Full Solutions</span></button>
+              <button class="feature-btn"><div class="feature-icon">🚀</div><span>Trusted Growth</span></button>
+              <button class="feature-btn"><div class="feature-icon">🎯</div><span>Client Focused</span></button>
+              <button class="feature-btn"><div class="feature-icon">💎</div><span>Affordable Quality</span></button>
+              <button class="feature-btn"><div class="feature-icon">🤝</div><span>Long-Term Partner</span></button>
+              <!-- Duplicate for infinite scroll -->
+              <button class="feature-btn"><div class="feature-icon">🌐</div><span>Custom Strategies</span></button>
+              <button class="feature-btn"><div class="feature-icon">✅</div><span>Proven Results</span></button>
+              <button class="feature-btn"><div class="feature-icon">👥</div><span>Expert Team</span></button>
+              <button class="feature-btn"><div class="feature-icon">💡</div><span>Creative Edge</span></button>
+              <button class="feature-btn"><div class="feature-icon">📱</div><span>Latest Tech</span></button>
+              <button class="feature-btn"><div class="feature-icon">📊</div><span>Full Solutions</span></button>
+              <button class="feature-btn"><div class="feature-icon">🚀</div><span>Trusted Growth</span></button>
+              <button class="feature-btn"><div class="feature-icon">🎯</div><span>Client Focused</span></button>
+              <button class="feature-btn"><div class="feature-icon">💎</div><span>Affordable Quality</span></button>
+              <button class="feature-btn"><div class="feature-icon">🤝</div><span>Long-Term Partner</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- why choose us end -->
+ <section class="team section_padding">
+
+ </section>
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
