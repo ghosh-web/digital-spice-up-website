@@ -3074,6 +3074,7 @@ a {
 
   .swiper-container {
     height: 350px;
+    text-align: center;
   }
 
   .feature-btn {
